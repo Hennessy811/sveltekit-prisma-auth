@@ -38,7 +38,8 @@
 	</div>
 	<NavUl {hidden} class="order-1">
 		<NavLi href="/" active={true}>Home</NavLi>
-		<NavLi href="/todo">ToDo</NavLi>
+		<NavLi href="/profile" active={true}>Profile</NavLi>
+		<!-- <NavLi href="/todo">ToDo</NavLi> -->
 	</NavUl>
 </Navbar>
 

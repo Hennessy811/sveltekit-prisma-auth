@@ -1,6 +1,6 @@
 import PrismaClient from '$lib/prisma';
 import { fail } from '@sveltejs/kit';
-import type { Actions, PageServerLoad } from './todo/$types';
+import type { Actions, PageServerLoad } from './$types';
 
 export interface Todo {
 	id: number;
